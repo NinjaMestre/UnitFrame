@@ -7,7 +7,7 @@ var current_velocity := 0.0
 
 func _ready(entity: Node2D):
 	assert(entity is CharacterBody2D, "Entity2D must be a CharacterBody2D")
-	assert(acceleration_speed >= 0 and acceleration_speed <= 1, "Accelaration Speed must be between 0 and 1")
+	assert(acceleration_speed >= 0 and acceleration_speed <= 1, "Acceleration Speed must be between 0 and 1")
 
 func _process(entity: Node2D, delta: float):
 	if not entity.is_on_floor():
