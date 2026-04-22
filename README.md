@@ -32,11 +32,11 @@ Nesse script, herde a classe Component.
 Embora as funções _ready, _process e _physics_process sejam da classe Node, elas foram adicionadas à classe Component. Quem programa no Godot sabe que 99% dos scripts herdam uma classe que direta ou indiretamente herda de Node, porque a arquitetura do Godot é essa, de tudo ser um node. Então, para facilitar a adaptação e diminuir a diferença entre escrever para um script de Node e de Component, as 3 principais funções dos Nodes foram copiadas para os Components.
 
 #### ⚡ Funções e Eventos
-_ready => executa quando o componente é criado
-_process => executa a cada quadro
-_physics_process => executa a cada quadro com uma taxa de quadros fixa
+_ready => executa quando o componente é criado;
+_process => executa a cada quadro;
+_physics_process => executa a cada quadro com uma taxa de quadros fixa;
 
-predelete => evento que é acionado logo antes do componente ser deletado
+predelete => evento que é acionado logo antes do componente ser deletado.
 
 ### Como criar minha própria entidade ❓
 Se você quiser criar uma classe que herda da Entity2D para adicionar novos recursos, você pode fazer isso desde que não sobrescreva a função _notification, já que a funcionalidade da Entity2D está lá e sem o código que está lá, os componentes não serão executados. A menos, claro, que você copie o código da _notification da Entity2D e cole aí. Aí tá tudo bem.
