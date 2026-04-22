@@ -17,7 +17,7 @@ signal land_after_jump
 
 func _ready(entity: Node2D):
 	assert(entity is CharacterBody2D, "Entity2D must be a CharacterBody2D")
-	assert(acceleration >= 0 and acceleration <= 1, "Accelaration must be between 0 and 1")
+	assert(acceleration >= 0 and acceleration <= 1, "Acceleration must be between 0 and 1")
 
 func _physics_process(entity: Node2D, delta: float):
 	if entity.is_on_floor():
