@@ -8,7 +8,7 @@ CBS é uma arquitetura de sistema baseado em componentes (Component-Based System
 
 ## Por que usar o UnitFrame ❓
 ### 🤖 Automação
-Diferente de outros plugins de CBS, o UnitFrame não foca em te dar uma variedade de componentes avançados prontos para você usar, e sim na parte de componentes simples e repetitivos que quase todo jogo tem e na parte de criar seus próprios componentes, facilitando o processo de criar um jogo do 0 sem acidentalmente "espaguetificar" o código.
+Diferente de outros plugins de CBS, o UnitFrame não foca em te dar uma variedade de componentes avançados prontos para você usar, e sim na parte de componentes simples e repetitivos que quase todo jogo tem e na parte de criar seus próprios componentes, facilitando o processo de criar a base do seu jogo sem acidentalmente "espaguetificar" o código.
 
 ### 🥱 Facilidade
 É chato criar ou colar uma movimentação básica, sistema de pulo e gravidade toda vez que você cria um jogo, já que geralmente isso é algo que tem em todo jogo, então por que não automatizar isso simplesmente colocando um componente de "KeyboardController", "Gravity" e "Jump" no seu personagem?
